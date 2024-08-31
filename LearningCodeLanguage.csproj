@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataTypesDemo.cs" />
+    <Compile Include="OperatorsAssignment.cs" />
     <Compile Include="OperatorsDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

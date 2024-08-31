@@ -7,17 +7,21 @@ namespace LearningCodeLanguage
         static void Main(string[] args)
         {
             /* Console Methods */
-            //SystemConsoleDemo.ConsoleMethods();
+            SystemConsoleDemo.ConsoleMethods();
 
             /* Variables */
-            //VariablesDemo.Variables();
+            VariablesDemo.Variables();
 
             /* DataTypes */
-            //DataTypesDemo.BytesDemo();
+            DataTypesDemo.BytesDemo();
 
             /* Operators */
             OperatorsDemo.ArithmeticOperatorsDemo();
             
+            /* Operators Assignment */
+            OperatorsAssignment.CalculateAreaOfCircle();
+            OperatorsAssignment.FeetToCentimeterConverter();
+            OperatorsAssignment.MoneyRoundOffValue();
         }
     }
 }
