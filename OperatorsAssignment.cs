@@ -39,5 +39,16 @@ namespace LearningCodeLanguage
 
             Console.WriteLine("Rounded Money Value: {0}", result);
         }
+
+        internal static void SecondsConverter()
+        {
+            Console.Write("Enter Seconds Value = ");
+            int seconds = System.Convert.ToInt32(Console.ReadLine());
+            int days = seconds / 86400;
+            int hours = seconds / 3600;
+            int minutes = (seconds % 3600) / 60;
+            int remainingSeconds = seconds % 60;
+            Console.WriteLine("{0} seconds is equal to {1} days, {2} hours, {3} minutes and {4} seconds", seconds, days, hours, minutes, remainingSeconds);
+        }
     }
 }

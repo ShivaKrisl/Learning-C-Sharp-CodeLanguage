@@ -17,11 +17,24 @@ namespace LearningCodeLanguage
 
             /* Operators */
             OperatorsDemo.ArithmeticOperatorsDemo();
-            
+
             /* Operators Assignment */
             OperatorsAssignment.CalculateAreaOfCircle();
             OperatorsAssignment.FeetToCentimeterConverter();
             OperatorsAssignment.MoneyRoundOffValue();
+            OperatorsAssignment.SecondsConverter();
+
+            /* Conditionals */
+            ConditionalsAssignment.HeightCategory();
+            ConditionalsAssignment.LargestOfThreeNumbers();
+            ConditionalsAssignment.MarksFinder();
+
+            /* Looping */
+            LoopingDemo.WhileLoopDemo();
+            LoopingDemo.DoWhileLoopDemo();
+            LoopingDemo.ForLoopDemo();
+            LoopingDemo.ForEachLoopDemo(); 
+            LoopingDemo.GotoDemo();
         }
     }
 }
